@@ -1,0 +1,24 @@
+{
+  "locals": {
+    "name": "React Quickly by Azat Mardan",
+    "url": "http://reactquickly.co/",
+    "description": "Book React Quickly by Azat Mardan",
+    "keywords": "React, JXS, DOM, Babel, Gulp, ES6, book, ReactJS, MEAP, MEAN, Node.JS, Node JS, NodeJS, javascript",
+    "author": "Azat Mardan"
+  },
+  "nunjucks": {
+    "autoescape": false
+  },
+  "plugins": [
+    "wintersmith-browserify",
+    "wintersmith-less",
+    "wintersmith-nunjucks",
+    "wintersmith-livereload"
+  ],
+  "browserify": {
+    "extensions": [
+      ".js",
+      ".coffee"
+    ]
+  }
+}
