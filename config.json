@@ -13,7 +13,8 @@
     "wintersmith-browserify",
     "wintersmith-less",
     "wintersmith-nunjucks",
-    "wintersmith-livereload"
+    "wintersmith-livereload",
+    "./plugins/paginator.coffee"
   ],
   "browserify": {
     "extensions": [
