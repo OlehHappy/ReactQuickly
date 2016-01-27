@@ -5,10 +5,7 @@ module.exports = (env, callback) ->
 
   defaults =
     template: 'index.html' # template that renders pages
-    articles: 'articles' # directory containing contents to paginate
-    first: 'index.html' # filename/url for first page
-    filename: 'page/%d/index.html' # filename for rest of pages
-    perPage: 2 # number of articles per page
+    articles: 'projects' # directory containing contents to paginate
 
   # assign defaults any option not set in the config file
   options = env.config.paginator or {}
@@ -26,13 +23,10 @@ module.exports = (env, callback) ->
   class PaginatorPage extends env.plugins.Page
     ### A page has a number and a list of articles ###
 
-    constructor: (@pageNum, @articles) ->
+    constructor: (@articles) ->
 
     getFilename: ->
-      if @pageNum is 1
-        options.first
-      else
-        options.filename.replace '%d', @pageNum
+        options.filename.replace '%d'
 
     getView: -> (env, locals, contents, templates, callback) ->
       # simple view to pass articles and pagenum to the paginator template

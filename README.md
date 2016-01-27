@@ -1,7 +1,7 @@
 # ReactQuickly
 by Azat Mardan
 
-Run `npm install` to install the plugins and deps. And you will need `nom install wintersmith -g`
+First you will need `nom install wintersmith -g`. Run `npm install` to install the plugins and deps.
 
 
 to start the server:

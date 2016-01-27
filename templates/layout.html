@@ -17,25 +17,25 @@
 
   <!-- Bootstrap
   ================================================== -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
+  <link href="{{contents.css['bootstrap.min.css'].url}}" rel="stylesheet">
+  <link href="{{contents.css['animate.css'].url}}" rel="stylesheet">
 
   <!-- Owl Stylesheets
   ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-  <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="{{contents.css['owl.carousel.css'].url}}">
+  <link rel="stylesheet" type="text/css" href="{{contents.css['owl.theme.css'].url}}">
 
   <!-- BookWriter Stylesheets
   ================================================== -->
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="{{contents.css['style.css'].url}}" rel="stylesheet" type="text/css">
+  <link href="{{contents.css['responsive.css'].url}}" rel="stylesheet" type="text/css">
 
   <!-- Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="{{contents.img['favicon.ico'].url}}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{contents.img['apple-touch-icon.png'].url}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{contents.img['apple-touch-icon-72x72.png'].url}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{contents.img['apple-touch-icon-114x114.png'].url}}">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,35 +46,35 @@
 
   <!-- Custom Fonts
   ================================================== -->
-  <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="{{contents.css['font-awesome.min.css'].url}}" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic' rel='stylesheet' type='text/css'>
 
-  <script type="text/javascript" src="js/modernizr.min.js"></script>
+  <script type="text/javascript" src="{{contents.js['modernizr.min.js'].url}}"></script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
   ================================================== -->
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="{{contents.js['jquery.1.11.1.js'].url}}"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <!-- Include all compiled plugins (below), or include individual files as needed
   ================================================== -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="{{contents.js['bootstrap.min.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['SmoothScroll.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['jquery.easing.min.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['jquery.backstretch.min.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['wow.min.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['owl.carousel.min.js'].url}}"></script>
 
   <!-- Contact Form
   ================================================== -->
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/contact.js"></script>
-  <script type="text/javascript" src="js/jquery.ajaxchimp.js"></script>
+  <script type="text/javascript" src="{{contents.js['jqBootstrapValidation.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['contact.js'].url}}"></script>
+  <script type="text/javascript" src="{{contents.js['jquery.ajaxchimp.js'].url}}"></script>
 
   <!--Custom Scripts
   ================================================== -->
-  <script src="js/main.js"></script>
+  <script src="{{contents.js['main.js'].url}}"></script>
   <!-- {{ livereloadScript }} -->
 </head>
 <body>
@@ -85,7 +85,7 @@
   <div id="preloader">
     <div id="status">&nbsp;</div>
   </div>
-  
+
   {% block body %}{% endblock %}
 </body>
 </html>
