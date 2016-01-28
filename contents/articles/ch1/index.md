@@ -1,5 +1,4 @@
 ---
-title: Video 1
-url: https://www.youtube.com/embed/WrG3eZ8cMAk
+title: Menu with React
 template: videos.html
 ---

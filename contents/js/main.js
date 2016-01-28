@@ -26,9 +26,9 @@
 
     	//Fullscreen Background Image Slideshow
         $.backstretch([
-            "img/bg/01.jpg",
-            "img/bg/02.jpg",
-            "img/bg/03.jpg"
+            "http://localhost:8080/img/bg/01.jpg",
+            "http://localhost:8080/img/bg/02.jpg",
+            "http://localhost:8080/img/bg/03.jpg"
         ], {duration: 3000, fade: 750});
 
 

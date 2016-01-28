@@ -4,7 +4,8 @@
     "url": "http://localhost:8080/",
     "description": "Book React Quickly by Azat Mardan",
     "keywords": "React, JXS, DOM, Babel, Gulp, ES6, book, ReactJS, MEAP, MEAN, Node.JS, Node JS, NodeJS, javascript",
-    "author": "Azat Mardan"
+    "author": "Azat Mardan",
+    "videoUrl1": "https://www.youtube.com/embed/WrG3eZ8cMAk"
   },
   "nunjucks": {
     "autoescape": false
