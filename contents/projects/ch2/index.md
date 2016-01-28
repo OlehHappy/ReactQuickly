@@ -1,4 +1,4 @@
 ---
-title: Menu with React
+title: Tooltip with React
 template: videos.html
 ---
