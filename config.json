@@ -59,5 +59,9 @@
       ".js",
       ".coffee"
     ]
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
   }
 }
